@@ -1,0 +1,564 @@
+[
+  {
+    "id": "tt-w-001",
+    "slug": "robe-longue-en-lin-sable",
+    "name": "Robe Longue Ceinturée en Lin Pur",
+    "description": "Une silhouette épurée et aérienne conçue en pur lin naturel. Décolleté en V subtil, fentes latérales et ceinture amovible pour ajuster la taille avec élégance. Parfaite pour les journées ensoleillées méditerranéennes.",
+    "price": 189.0,
+    "salePrice": 149.0,
+    "category": "women",
+    "subcategory": "Robes",
+    "colors": [
+      { "name": "Sable Doré", "hex": "#E3D8C8", "imageIndex": 0 },
+      { "name": "Blanc Craie", "hex": "#F8F7F2", "imageIndex": 2 },
+      { "name": "Terre Cuite", "hex": "#C67D63", "imageIndex": 3 }
+    ],
+    "sizes": [
+      { "size": "XS", "inStock": true, "stockCount": 4 },
+      { "size": "S", "inStock": true, "stockCount": 9 },
+      { "size": "M", "inStock": true, "stockCount": 12 },
+      { "size": "L", "inStock": true, "stockCount": 5 },
+      { "size": "XL", "inStock": false, "stockCount": 0 }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1595777457583-95e059d581b8?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "fabric": "100% Lin Français Naturel Certifié Masters of Linen",
+    "care": [
+      "Lavage délicat en machine à 30°C",
+      "Essorage doux (600 tours/min)",
+      "Repassage à la vapeur sur vêtement encore légèrement humide",
+      "Ne pas sécher au sèche-linge"
+    ],
+    "isNew": true,
+    "isBestSeller": true,
+    "rating": 4.9,
+    "reviewCount": 28
+  },
+  {
+    "id": "tt-w-002",
+    "slug": "blazer-oversize-laine-froide-caramel",
+    "name": "Blazer Structuré en Laine Froide",
+    "description": "Blazer d'inspiration masculine à la coupe subtilement oversize. Épaulettes légères, boutonnage croisé en corne naturelle et doublure soyeuse respirante. L'indispensable du vestiaire contemporain.",
+    "price": 285.0,
+    "salePrice": null,
+    "category": "women",
+    "subcategory": "Vestes & Manteaux",
+    "colors": [
+      { "name": "Caramel Moka", "hex": "#7E5835", "imageIndex": 0 },
+      { "name": "Noir Intense", "hex": "#1F1F1F", "imageIndex": 2 }
+    ],
+    "sizes": [
+      { "size": "XS", "inStock": true, "stockCount": 2 },
+      { "size": "S", "inStock": true, "stockCount": 6 },
+      { "size": "M", "inStock": false, "stockCount": 0 },
+      { "size": "L", "inStock": true, "stockCount": 3 }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1548624313-039e3f670104?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1550614000-4895a10e1bfd?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "fabric": "85% Laine Vierge peignée, 15% Soie. Doublure 100% Cupro.",
+    "care": [
+      "Nettoyage à sec spécialisé uniquement",
+      "Repassage doux à l'envers avec pattemouille",
+      "Suspendre sur cintre large en bois"
+    ],
+    "isNew": true,
+    "isBestSeller": false,
+    "rating": 4.8,
+    "reviewCount": 14
+  },
+  {
+    "id": "tt-w-003",
+    "slug": "pull-col-camionneur-cachemire-avoine",
+    "name": "Pull Col Camionneur en Cachemire Épais",
+    "description": "Tricoté dans un cachemire 4 fils somptueusement doux. Col montant zippé en laiton brossé, emmanchures tombantes et finitions en côtes épaisses.",
+    "price": 240.0,
+    "salePrice": 195.0,
+    "category": "women",
+    "subcategory": "Pulls & Mailles",
+    "colors": [
+      { "name": "Avoine Chiné", "hex": "#DED3C4", "imageIndex": 0 },
+      { "name": "Bleu Nuit", "hex": "#1A2536", "imageIndex": 2 }
+    ],
+    "sizes": [
+      { "size": "S", "inStock": true, "stockCount": 8 },
+      { "size": "M", "inStock": true, "stockCount": 11 },
+      { "size": "L", "inStock": false, "stockCount": 0 }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1576566588028-4147f3842f27?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "fabric": "100% Cachemire Mongolie Grade A Certifié",
+    "care": [
+      "Lavage à la main à l'eau froide avec shampoing spécial laine",
+      "Séchage à plat sur serviette éponge",
+      "Ne jamais suspendre mouillé"
+    ],
+    "isNew": false,
+    "isBestSeller": true,
+    "rating": 5.0,
+    "reviewCount": 39
+  },
+  {
+    "id": "tt-w-004",
+    "slug": "pantalon-palazzo-tailleur-ivoire",
+    "name": "Pantalon Palazzo Plissé Taille Haute",
+    "description": "Coupe large majestueuse avec double pli à la taille. Tomber impeccable et fluide créant une démarche gracieuse et sophistiquée.",
+    "price": 165.0,
+    "salePrice": null,
+    "category": "women",
+    "subcategory": "Pantalons",
+    "colors": [
+      { "name": "Ivoire Écru", "hex": "#F4F0E8", "imageIndex": 0 },
+      { "name": "Olive Doux", "hex": "#6B705C", "imageIndex": 2 }
+    ],
+    "sizes": [
+      { "size": "34", "inStock": true, "stockCount": 3 },
+      { "size": "36", "inStock": true, "stockCount": 7 },
+      { "size": "38", "inStock": true, "stockCount": 10 },
+      { "size": "40", "inStock": true, "stockCount": 4 },
+      { "size": "42", "inStock": false, "stockCount": 0 }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1509551388413-e18d0ac5d495?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1485968579580-b6d095142e6e?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "fabric": "70% Viscose fluide haute densité, 30% Lin fin",
+    "care": [
+      "Lavage délicat à 30°C",
+      "Repasser sur envers fer moyen",
+      "Pas de javel"
+    ],
+    "isNew": true,
+    "isBestSeller": false,
+    "rating": 4.7,
+    "reviewCount": 19
+  },
+  {
+    "id": "tt-w-005",
+    "slug": "chemise-ample-soie-sauvage-perle",
+    "name": "Chemise Ample en Crêpe de Soie",
+    "description": "Coupe décontractée chic aux reflets nacrés naturels. Boutons en nacre véritable de nacre fine et col souple contemporain.",
+    "price": 175.0,
+    "salePrice": null,
+    "category": "women",
+    "subcategory": "Chemises & Blouses",
+    "colors": [
+      { "name": "Perle Satinée", "hex": "#EAE6DF", "imageIndex": 0 },
+      { "name": "Terracotta Doux", "hex": "#C9826B", "imageIndex": 2 }
+    ],
+    "sizes": [
+      { "size": "XS", "inStock": true, "stockCount": 5 },
+      { "size": "S", "inStock": true, "stockCount": 8 },
+      { "size": "M", "inStock": true, "stockCount": 6 },
+      { "size": "L", "inStock": true, "stockCount": 2 }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1598554747436-c9293d6a588f?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1551803091-e20673f15770?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "fabric": "100% Crêpe de Chine en Soie de Mûrier (16 mommes)",
+    "care": [
+      "Lavage main eau tiède sans frotter",
+      "Lessive spéciale soie",
+      "Repasser légèrement humide sur l'envers"
+    ],
+    "isNew": false,
+    "isBestSeller": true,
+    "rating": 4.9,
+    "reviewCount": 32
+  },
+  {
+    "id": "tt-w-006",
+    "slug": "trench-coat-gabardine-ceinture-beige",
+    "name": "Trench Long en Gabardine de Coton",
+    "description": "Le classique intemporel revisité avec une silhouette fluide et des détails soignés : bavolet tempête, boutons aspect corne et boucle gainée de cuir végan.",
+    "price": 320.0,
+    "salePrice": 269.0,
+    "category": "women",
+    "subcategory": "Vestes & Manteaux",
+    "colors": [
+      { "name": "Beige Mastic", "hex": "#D6C7B2", "imageIndex": 0 },
+      { "name": "Kaki Ardoise", "hex": "#5A6351", "imageIndex": 2 }
+    ],
+    "sizes": [
+      { "size": "36", "inStock": true, "stockCount": 4 },
+      { "size": "38", "inStock": true, "stockCount": 5 },
+      { "size": "40", "inStock": false, "stockCount": 0 },
+      { "size": "42", "inStock": true, "stockCount": 2 }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1525450824786-227cbef70703?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1578587018452-892bacefd3f2?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1544441893-675973e31985?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "fabric": "100% Coton Gabardine déperlant écologique sans PFC",
+    "care": [
+      "Nettoyage à sec doux",
+      "Ne pas javelliser",
+      "Repassage fer tiède"
+    ],
+    "isNew": true,
+    "isBestSeller": true,
+    "rating": 5.0,
+    "reviewCount": 41
+  },
+  {
+    "id": "tt-w-007",
+    "slug": "jupe-midi-plissee-soleil-argile",
+    "name": "Jupe Midi Plissée Soleil",
+    "description": "Une jupe d'un tombé fluide et hypnotique avec son plissé soleil permanent. Ceinture élastiquée invisible pour un confort absolu tout au long de la journée.",
+    "price": 139.0,
+    "salePrice": null,
+    "category": "women",
+    "subcategory": "Jupes",
+    "colors": [
+      { "name": "Argile Rosée", "hex": "#D19F8C", "imageIndex": 0 },
+      { "name": "Champagne", "hex": "#E8DEC8", "imageIndex": 2 }
+    ],
+    "sizes": [
+      { "size": "S", "inStock": true, "stockCount": 7 },
+      { "size": "M", "inStock": true, "stockCount": 9 },
+      { "size": "L", "inStock": true, "stockCount": 3 }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1518049362265-d5b2a6467637?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "fabric": "100% Mousseline recyclée certifiée OEKO-TEX",
+    "care": [
+      "Lavage à la main ou cycle délicat dans un filet",
+      "Séchage sur cintre sans repassage pour préserver les plis"
+    ],
+    "isNew": false,
+    "isBestSeller": false,
+    "rating": 4.6,
+    "reviewCount": 11
+  },
+  {
+    "id": "tt-w-008",
+    "slug": "ensemble-maille-gilet-pantalon-creme",
+    "name": "Ensemble Cocooning en Maille Côtelée",
+    "description": "Duo gilet boutonné col V et pantalon large en tricot doux. Élégance décontractée à porter chez soi comme en balade citadine.",
+    "price": 210.0,
+    "salePrice": 179.0,
+    "category": "women",
+    "subcategory": "Ensembles",
+    "colors": [
+      { "name": "Crème Fouettée", "hex": "#F3EFE6", "imageIndex": 0 },
+      { "name": "Gris Anthracite", "hex": "#3A3A3C", "imageIndex": 2 }
+    ],
+    "sizes": [
+      { "size": "XS", "inStock": true, "stockCount": 3 },
+      { "size": "S", "inStock": true, "stockCount": 6 },
+      { "size": "M", "inStock": true, "stockCount": 8 },
+      { "size": "L", "inStock": false, "stockCount": 0 }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "fabric": "60% Coton biologique, 30% Modal, 10% Laine mérinos",
+    "care": [
+      "Programme laine à froid",
+      "Essorage minimum",
+      "Séchage à plat"
+    ],
+    "isNew": true,
+    "isBestSeller": true,
+    "rating": 4.9,
+    "reviewCount": 35
+  },
+  {
+    "id": "tt-k-001",
+    "slug": "barboteuse-gaze-de-coton-menthe",
+    "name": "Barboteuse Rétro en Double Gaze Bio",
+    "description": "Confectionnée dans une double gaze de coton biologique ultra respirante et douce sur la peau des tout-petits. Boutons en bois d'olivier et pressions à l'entrejambe pour un change facile.",
+    "price": 59.0,
+    "salePrice": 45.0,
+    "category": "kids",
+    "subcategory": "Bébé & Naissance",
+    "ageGroup": "0-12m",
+    "colors": [
+      { "name": "Vert Sauge", "hex": "#9EB39F", "imageIndex": 0 },
+      { "name": "Pêche Poudrée", "hex": "#E9AB96", "imageIndex": 2 },
+      { "name": "Écru Naturel", "hex": "#F5EFE6", "imageIndex": 3 }
+    ],
+    "sizes": [
+      { "size": "0-3m", "inStock": true, "stockCount": 6 },
+      { "size": "3-6m", "inStock": true, "stockCount": 8 },
+      { "size": "6-9m", "inStock": true, "stockCount": 5 },
+      { "size": "9-12m", "inStock": false, "stockCount": 0 }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1522771930-78848d9293e8?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1519689680058-324335c77eba?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1555252333-9f8e92e65df9?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1560343090-f0409e92791a?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "fabric": "100% Coton biologique certifié GOTS hypoallergénique",
+    "care": [
+      "Lavage en machine à 30°C",
+      "Ne pas repasser pour préserver l'effet gaufré naturel",
+      "Séchage à l'air libre conseillé"
+    ],
+    "isNew": true,
+    "isBestSeller": true,
+    "rating": 5.0,
+    "reviewCount": 42
+  },
+  {
+    "id": "tt-k-002",
+    "slug": "cardigan-tricot-point-mousse-bebe-avoine",
+    "name": "Gilet Bébé au Point Mousse avec Capuche Ours",
+    "description": "Adorable gilet boutonné à capuche ornée de petites oreilles d'oursons. Douillet, chaud et extensible pour suivre les premiers mouvements de bébé.",
+    "price": 68.0,
+    "salePrice": null,
+    "category": "kids",
+    "subcategory": "Tricots & Gilets",
+    "ageGroup": "0-12m",
+    "colors": [
+      { "name": "Avoine Doux", "hex": "#DFD7CA", "imageIndex": 0 },
+      { "name": "Brume Grise", "hex": "#C2C6C9", "imageIndex": 2 }
+    ],
+    "sizes": [
+      { "size": "1-3m", "inStock": true, "stockCount": 4 },
+      { "size": "3-6m", "inStock": true, "stockCount": 7 },
+      { "size": "6-12m", "inStock": true, "stockCount": 9 }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1519689680058-324335c77eba?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1522771930-78848d9293e8?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "fabric": "100% Coton peigné doux sans grattement",
+    "care": [
+      "Lavage délicat 30°C",
+      "Séchage à plat"
+    ],
+    "isNew": false,
+    "isBestSeller": true,
+    "rating": 4.9,
+    "reviewCount": 27
+  },
+  {
+    "id": "tt-k-003",
+    "slug": "salopette-velours-cotele-caramel-toddler",
+    "name": "Salopette en Velours Côtelé Rétro",
+    "description": "Salopette pratique et résistante pour les petits explorateurs. Bretelles réglables par boutons, grande poche ventrale et boutons-pression sur les côtés.",
+    "price": 79.0,
+    "salePrice": 62.0,
+    "category": "kids",
+    "subcategory": "Pantalons & Salopettes",
+    "ageGroup": "1-3y",
+    "colors": [
+      { "name": "Caramel Miel", "hex": "#B87A42", "imageIndex": 0 },
+      { "name": "Vert Forêt Doux", "hex": "#4C6B54", "imageIndex": 2 }
+    ],
+    "sizes": [
+      { "size": "12-18m", "inStock": true, "stockCount": 5 },
+      { "size": "18-24m", "inStock": true, "stockCount": 8 },
+      { "size": "2-3y", "inStock": false, "stockCount": 0 }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1503919545889-aef636e10ad4?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1543854589-cb489868e469?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1471286174890-9c112ffca56a?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "fabric": "98% Coton velours milleraies souple, 2% Élasthanne",
+    "care": [
+      "Laver sur l'envers à 30°C",
+      "Ne pas sécher au sèche-linge",
+      "Repasser sur envers fer moyen"
+    ],
+    "isNew": true,
+    "isBestSeller": false,
+    "rating": 4.8,
+    "reviewCount": 16
+  },
+  {
+    "id": "tt-k-004",
+    "slug": "robe-evasee-motifs-fleurs-pastels-toddler",
+    "name": "Robe Évasée à Micro-Fleurs Pastels",
+    "description": "Une charmante robe aux finitions volants sur les épaules. Tissu en popeline légère imprimé de délicates petites fleurs aux tons pastel.",
+    "price": 72.0,
+    "salePrice": null,
+    "category": "kids",
+    "subcategory": "Robes",
+    "ageGroup": "1-3y",
+    "colors": [
+      { "name": "Fleurs Pêche", "hex": "#F1C5B5", "imageIndex": 0 },
+      { "name": "Fleurs Lavande", "hex": "#D3C6E5", "imageIndex": 2 }
+    ],
+    "sizes": [
+      { "size": "12-18m", "inStock": true, "stockCount": 3 },
+      { "size": "18-24m", "inStock": true, "stockCount": 6 },
+      { "size": "2-3y", "inStock": true, "stockCount": 7 }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1471286174890-9c112ffca56a?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "fabric": "100% Popeline de coton bio respirant",
+    "care": [
+      "Lavage à 30°C en machine",
+      "Repassage fer doux"
+    ],
+    "isNew": false,
+    "isBestSeller": true,
+    "rating": 4.9,
+    "reviewCount": 23
+  },
+  {
+    "id": "tt-k-005",
+    "slug": "ensemble-chemise-lin-bermuda-sauge",
+    "name": "Ensemble Cérémonie Chemise Lin & Bermuda",
+    "description": "L'ensemble idéal pour les grandes occasions et fêtes de famille. Chemise col officier en lin mélangé et bermuda taille élastique avec poches italiennes.",
+    "price": 105.0,
+    "salePrice": 89.0,
+    "category": "kids",
+    "subcategory": "Ensembles",
+    "ageGroup": "4-7y",
+    "colors": [
+      { "name": "Lin Sauge & Sable", "hex": "#889C86", "imageIndex": 0 },
+      { "name": "Blanc & Bleu Ciel", "hex": "#A2BDD4", "imageIndex": 2 }
+    ],
+    "sizes": [
+      { "size": "4-5y", "inStock": true, "stockCount": 6 },
+      { "size": "5-6y", "inStock": true, "stockCount": 9 },
+      { "size": "6-7y", "inStock": false, "stockCount": 0 }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1503919545889-aef636e10ad4?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1471286174890-9c112ffca56a?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "fabric": "55% Lin naturel, 45% Coton d'Égypte peigné",
+    "care": [
+      "Lavage à 30°C",
+      "Repassage à la vapeur pour un effet soigné"
+    ],
+    "isNew": true,
+    "isBestSeller": true,
+    "rating": 4.8,
+    "reviewCount": 18
+  },
+  {
+    "id": "tt-k-006",
+    "slug": "sweat-molleton-ecologique-biscuit",
+    "name": "Sweat Capuche Minimaliste en Molleton Doux",
+    "description": "Coupe décontractée, intérieur brossé polaire ultra doux et finition bord-côte renforcée. Un vêtement durable pensé pour courir et s'amuser en toute liberté.",
+    "price": 65.0,
+    "salePrice": null,
+    "category": "kids",
+    "subcategory": "Sweats & Pulls",
+    "ageGroup": "4-7y",
+    "colors": [
+      { "name": "Biscuit Croustillant", "hex": "#D8BFA6", "imageIndex": 0 },
+      { "name": "Bleu Brume", "hex": "#768B99", "imageIndex": 2 }
+    ],
+    "sizes": [
+      { "size": "4-5y", "inStock": true, "stockCount": 7 },
+      { "size": "5-6y", "inStock": true, "stockCount": 12 },
+      { "size": "6-7y", "inStock": true, "stockCount": 8 }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1503919545889-aef636e10ad4?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1543854589-cb489868e469?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "fabric": "100% Coton biologique épais 320g/m²",
+    "care": [
+      "Lavage en machine à 30°C avec couleurs similaires",
+      "Séchage en machine à température modérée autorisé"
+    ],
+    "isNew": false,
+    "isBestSeller": false,
+    "rating": 4.7,
+    "reviewCount": 15
+  },
+  {
+    "id": "tt-k-007",
+    "slug": "surchemise-denim-doux-junior-indigo",
+    "name": "Surchemise Décontractée en Denim Doux",
+    "description": "Conçue pour les 8-12 ans avec une touche moderne et épurée. Deux poches poitrine à rabat, boutons mats et toile de coton délavée aux enzymes sans produits nocifs.",
+    "price": 95.0,
+    "salePrice": 79.0,
+    "category": "kids",
+    "subcategory": "Vestes & Chemises",
+    "ageGroup": "8-12y",
+    "colors": [
+      { "name": "Indigo Clair", "hex": "#7A92A8", "imageIndex": 0 },
+      { "name": "Bleu Brut", "hex": "#2E4158", "imageIndex": 2 }
+    ],
+    "sizes": [
+      { "size": "8-9y", "inStock": true, "stockCount": 5 },
+      { "size": "9-10y", "inStock": true, "stockCount": 7 },
+      { "size": "10-11y", "inStock": false, "stockCount": 0 },
+      { "size": "11-12y", "inStock": true, "stockCount": 4 }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1519457431-44ccd64a579b?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1514989940723-e8e51635b782?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1503919545889-aef636e10ad4?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "fabric": "100% Coton denim souple certifié BCI",
+    "care": [
+      "Lavage sur envers à 30°C",
+      "Repassage à température moyenne"
+    ],
+    "isNew": true,
+    "isBestSeller": false,
+    "rating": 4.9,
+    "reviewCount": 21
+  },
+  {
+    "id": "tt-k-008",
+    "slug": "jupe-plissee-ecossaise-junior-marine",
+    "name": "Jupe Plissée Tennis en Coton Stretch",
+    "description": "Style preppy chic pour jeunes filles et juniors. Plissé permanent haute tenue, ceinture élastique confortable au dos et sous-short intégré pour une liberté totale.",
+    "price": 69.0,
+    "salePrice": null,
+    "category": "kids",
+    "subcategory": "Jupes & Robes",
+    "ageGroup": "8-12y",
+    "colors": [
+      { "name": "Bleu Marine", "hex": "#1F2937", "imageIndex": 0 },
+      { "name": "Kaki Pâle", "hex": "#8A947C", "imageIndex": 2 }
+    ],
+    "sizes": [
+      { "size": "8-9y", "inStock": true, "stockCount": 8 },
+      { "size": "9-10y", "inStock": true, "stockCount": 6 },
+      { "size": "10-11y", "inStock": true, "stockCount": 5 },
+      { "size": "11-12y", "inStock": true, "stockCount": 3 }
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1519457431-44ccd64a579b?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "fabric": "95% Coton peigné, 5% Élasthanne",
+    "care": [
+      "Lavage délicat à 30°C",
+      "Séchage à plat"
+    ],
+    "isNew": false,
+    "isBestSeller": true,
+    "rating": 4.8,
+    "reviewCount": 17
+  }
+]
+

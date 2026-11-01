@@ -1,0 +1,257 @@
+'use client';
+
+import React, { useState } from 'react';
+import Link from 'next/link';
+import { X, ChevronRight, Heart, User, Sparkles, Flame, HelpCircle } from 'lucide-react';
+import { useWishlist } from '@/context/WishlistContext';
+
+interface MobileMenuProps {
+  isOpen: boolean;
+  onClose: () => void;
+}
+
+export function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
+  const [activeTab, setActiveTab] = useState<'women' | 'kids'>('women');
+  const { wishlistCount } = useWishlist();
+
+  if (!isOpen) return null;
+
+  return (
+    <div className="fixed inset-0 z-50 lg:hidden" role="dialog" aria-modal="true" aria-label="Menu principal">
+      {/* Backdrop */}
+      <div
+        className="fixed inset-0 bg-charcoal/60 backdrop-blur-xs transition-opacity"
+        onClick={onClose}
+      />
+
+      <aside className="fixed inset-y-0 left-0 w-full max-w-xs bg-white shadow-2xl flex flex-col">
+        {/* Header */}
+        <div className="p-4 border-b border-border flex items-center justify-between">
+          <Link
+            href="/"
+            onClick={onClose}
+            className="font-serif text-lg tracking-wider font-semibold text-charcoal"
+          >
+            TOP TENDANCE
+          </Link>
+          <button
+            onClick={onClose}
+            className="p-2 text-charcoal-500 hover:text-charcoal hover:bg-cream rounded transition"
+            aria-label="Fermer le menu"
+          >
+            <X className="w-5 h-5" />
+          </button>
+        </div>
+
+        {/* Category Switcher Tabs */}
+        <div className="grid grid-cols-2 border-b border-border text-center text-xs font-semibold tracking-wider uppercase">
+          <button
+            onClick={() => setActiveTab('women')}
+            className={`py-3.5 transition-colors border-b-2 ${
+              activeTab === 'women'
+                ? 'border-charcoal text-charcoal bg-white font-bold'
+                : 'border-transparent text-charcoal-500 bg-cream-50 hover:text-charcoal'
+            }`}
+          >
+            Femme
+          </button>
+          <button
+            onClick={() => setActiveTab('kids')}
+            className={`py-3.5 transition-colors border-b-2 ${
+              activeTab === 'kids'
+                ? 'border-kids-peach text-kids-peach bg-kids-peach-light/40 font-bold'
+                : 'border-transparent text-charcoal-500 bg-cream-50 hover:text-charcoal'
+            }`}
+          >
+            Enfant
+          </button>
+        </div>
+
+        {/* Navigation Content */}
+        <div className="flex-1 overflow-y-auto divide-y divide-border">
+          {activeTab === 'women' ? (
+            <div className="p-4 space-y-1">
+              <p className="text-[10px] uppercase font-semibold text-charcoal-400 tracking-widest px-3 py-1">
+                Catégories Femme
+              </p>
+              <Link
+                href="/women"
+                onClick={onClose}
+                className="flex items-center justify-between px-3 py-2.5 text-sm font-medium text-charcoal hover:bg-cream transition"
+              >
+                <span>Tout Voir en Femme</span>
+                <ChevronRight className="w-4 h-4 text-charcoal-400" />
+              </Link>
+              <Link
+                href="/women?subcategory=Robes"
+                onClick={onClose}
+                className="flex items-center justify-between px-3 py-2 text-sm text-charcoal-700 hover:bg-cream transition"
+              >
+                <span>Robes & Combinaisons</span>
+              </Link>
+              <Link
+                href="/women?subcategory=Vestes & Manteaux"
+                onClick={onClose}
+                className="flex items-center justify-between px-3 py-2 text-sm text-charcoal-700 hover:bg-cream transition"
+              >
+                <span>Vestes, Blazers & Manteaux</span>
+              </Link>
+              <Link
+                href="/women?subcategory=Pulls & Mailles"
+                onClick={onClose}
+                className="flex items-center justify-between px-3 py-2 text-sm text-charcoal-700 hover:bg-cream transition"
+              >
+                <span>Pulls & Cachemires</span>
+              </Link>
+              <Link
+                href="/women?subcategory=Chemises & Blouses"
+                onClick={onClose}
+                className="flex items-center justify-between px-3 py-2 text-sm text-charcoal-700 hover:bg-cream transition"
+              >
+                <span>Chemises en Soie & Lin</span>
+              </Link>
+              <Link
+                href="/women?subcategory=Pantalons"
+                onClick={onClose}
+                className="flex items-center justify-between px-3 py-2 text-sm text-charcoal-700 hover:bg-cream transition"
+              >
+                <span>Pantalons & Ensembles</span>
+              </Link>
+            </div>
+          ) : (
+            <div className="p-4 space-y-1">
+              <p className="text-[10px] uppercase font-semibold text-kids-peach tracking-widest px-3 py-1">
+                Âge d'abord (Kids)
+              </p>
+              <Link
+                href="/kids"
+                onClick={onClose}
+                className="flex items-center justify-between px-3 py-2.5 text-sm font-medium text-charcoal hover:bg-kids-peach-light transition rounded-kids"
+              >
+                <span>Tout l'univers Enfant</span>
+                <ChevronRight className="w-4 h-4 text-charcoal-400" />
+              </Link>
+              <Link
+                href="/kids?ageGroup=0-12m"
+                onClick={onClose}
+                className="flex items-center justify-between px-3 py-2 text-sm text-charcoal-700 hover:bg-kids-peach-light/40 transition rounded-kids"
+              >
+                <span className="flex items-center gap-2">
+                  <span className="w-2 h-2 rounded-full bg-kids-sage" />
+                  Bébé & Naissance (0 - 12 mois)
+                </span>
+              </Link>
+              <Link
+                href="/kids?ageGroup=1-3y"
+                onClick={onClose}
+                className="flex items-center justify-between px-3 py-2 text-sm text-charcoal-700 hover:bg-kids-peach-light/40 transition rounded-kids"
+              >
+                <span className="flex items-center gap-2">
+                  <span className="w-2 h-2 rounded-full bg-kids-peach" />
+                  Tout-petit (1 - 3 ans)
+                </span>
+              </Link>
+              <Link
+                href="/kids?ageGroup=4-7y"
+                onClick={onClose}
+                className="flex items-center justify-between px-3 py-2 text-sm text-charcoal-700 hover:bg-kids-peach-light/40 transition rounded-kids"
+              >
+                <span className="flex items-center gap-2">
+                  <span className="w-2 h-2 rounded-full bg-kids-sky" />
+                  Enfant (4 - 7 ans)
+                </span>
+              </Link>
+              <Link
+                href="/kids?ageGroup=8-12y"
+                onClick={onClose}
+                className="flex items-center justify-between px-3 py-2 text-sm text-charcoal-700 hover:bg-kids-peach-light/40 transition rounded-kids"
+              >
+                <span className="flex items-center gap-2">
+                  <span className="w-2 h-2 rounded-full bg-charcoal" />
+                  Junior (8 - 12 ans)
+                </span>
+              </Link>
+            </div>
+          )}
+
+          {/* Highlights & Specials */}
+          <div className="p-4 space-y-1">
+            <Link
+              href="/search?tag=new"
+              onClick={onClose}
+              className="flex items-center gap-2.5 px-3 py-2 text-sm font-medium text-charcoal hover:bg-cream transition"
+            >
+              <Sparkles className="w-4 h-4 text-kids-peach" />
+              <span>Nouveautés</span>
+            </Link>
+            <Link
+              href="/search?tag=bestseller"
+              onClick={onClose}
+              className="flex items-center gap-2.5 px-3 py-2 text-sm font-medium text-charcoal hover:bg-cream transition"
+            >
+              <Flame className="w-4 h-4 text-sale" />
+              <span>Meilleures Ventes</span>
+            </Link>
+            <Link
+              href="/wishlist"
+              onClick={onClose}
+              className="flex items-center justify-between px-3 py-2 text-sm font-medium text-charcoal hover:bg-cream transition"
+            >
+              <span className="flex items-center gap-2.5">
+                <Heart className="w-4 h-4 text-charcoal" />
+                <span>Mes Favoris</span>
+              </span>
+              {wishlistCount > 0 && (
+                <span className="px-2 py-0.5 text-xs bg-charcoal text-white rounded-full">
+                  {wishlistCount}
+                </span>
+              )}
+            </Link>
+          </div>
+
+          {/* Client services */}
+          <div className="p-4 space-y-1 text-xs text-charcoal-600">
+            <Link
+              href="/shipping-returns"
+              onClick={onClose}
+              className="block px-3 py-2 hover:text-charcoal transition"
+            >
+              Livraison & Retours en Tunisie
+            </Link>
+            <Link
+              href="/about"
+              onClick={onClose}
+              className="block px-3 py-2 hover:text-charcoal transition"
+            >
+              À Propos de Top Tendance
+            </Link>
+            <Link
+              href="/contact"
+              onClick={onClose}
+              className="block px-3 py-2 hover:text-charcoal transition"
+            >
+              Boutique & Contact (Tunis)
+            </Link>
+            <Link
+              href="/login"
+              onClick={onClose}
+              className="flex items-center gap-2 px-3 py-2 font-medium text-charcoal hover:underline pt-2"
+            >
+              <User className="w-4 h-4" />
+              <span>Se connecter / S'inscrire</span>
+            </Link>
+          </div>
+        </div>
+
+        {/* Footer info in drawer */}
+        <div className="p-4 bg-cream-50 border-t border-border flex items-center justify-between text-xs text-charcoal-600">
+          <span>Devise: <strong>TND (Dinar Tunisien)</strong></span>
+          <span className="text-[11px] bg-white px-2 py-1 rounded border border-border">
+            Tunisie 🇹🇳
+          </span>
+        </div>
+      </aside>
+    </div>
+  );
+}
+
