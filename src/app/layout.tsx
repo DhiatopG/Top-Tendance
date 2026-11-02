@@ -6,6 +6,7 @@ import { WishlistProvider } from '@/context/WishlistContext';
 import { ToastProvider } from '@/context/ToastContext';
 import { Header } from '@/components/common/Header';
 import { Footer } from '@/components/common/Footer';
+import { StoreLocation } from '@/components/common/StoreLocation';
 import { CartDrawer } from '@/components/cart/CartDrawer';
 
 const inter = Inter({
@@ -65,6 +66,7 @@ export default function RootLayout({
               <main className="flex-1 flex flex-col">
                 {children}
               </main>
+              <StoreLocation />
               <Footer />
             </WishlistProvider>
           </CartProvider>
