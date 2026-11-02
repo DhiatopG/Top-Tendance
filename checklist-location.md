@@ -40,8 +40,9 @@ This checklist tracks the plan and implementation steps for integrating the Goog
   - [x] Update `src/app/layout.tsx` (or target page).
 
 ### Verification & Testing
-- [ ] Check responsive rendering across viewports (Mobile, Tablet, Desktop).
-- [ ] Verify map interactions (scroll zoom, touch gestures, pin visibility).
-- [ ] Run build test (`npm run build` / lint) to verify TypeScript & JSX syntax compatibility.
+- [x] Check responsive rendering across viewports (Mobile, Tablet, Desktop).
+- [x] Verify map interactions (scroll zoom, touch gestures, pin visibility).
+- [x] Run build test (`npm run build` / lint) to verify TypeScript & JSX syntax compatibility.
+- [x] Push clean commit to GitHub `main` for deployment.
 - [ ] Ensure no layout shift (CLS) or horizontal scrollbars occur due to iframe dimensions.
 
