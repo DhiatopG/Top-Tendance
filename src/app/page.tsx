@@ -6,9 +6,12 @@ import productsData from '@/data/products.json';
 import { Product } from '@/types/product';
 import { FeaturedProducts } from '@/components/home/FeaturedProducts';
 import { HomeNewsletter } from '@/components/home/HomeNewsletter';
+import { CustomerReviews } from '@/components/home/CustomerReviews';
+import { getCustomerReviews } from '@/utils/reviews';
 
-export default function Home() {
+export default async function Home() {
   const products = productsData as Product[];
+  const reviewsData = await getCustomerReviews();
   return (
     <div className="bg-cream min-h-screen">
       {/* 1. Dual Split Hero Section */}
@@ -426,7 +429,10 @@ export default function Home() {
         </div>
       </section>
 
-      {/* 6. Newsletter / VIP Club Callout */}
+      {/* 6. Customer Reviews Section */}
+      <CustomerReviews initialData={reviewsData} />
+
+      {/* 7. Newsletter / VIP Club Callout */}
       <HomeNewsletter />
     </div>
   );
