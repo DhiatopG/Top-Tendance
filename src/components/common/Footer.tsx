@@ -79,7 +79,7 @@ export function Footer() {
           <div className="lg:col-span-2 space-y-4">
             <Link href="/" className="inline-block">
               <span className="font-serif text-2xl tracking-[0.2em] font-medium text-charcoal">
-                TOP TENDANCE
+                Top Tendance
               </span>
             </Link>
             <p className="text-xs leading-relaxed text-charcoal-600 max-w-sm">
